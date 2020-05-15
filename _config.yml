@@ -1,0 +1,73 @@
+## This is Hexo-Theme-MDUI
+## Author:186526(https://github.com/186526)
+version: 0.0114514
+favicon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
+color:
+  primary: "orange"
+  accent: "deep-orange"
+icon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
+avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/avatar.jpeg
+fab:
+  enable: true
+  ## only mdui-icon material-icons
+  icon: home
+  not_use_in_index: true
+  url: /
+drawer:
+  personal: 
+    enable: true
+    des: "Hexo-Theme-MDUI"
+  darkmode_btn: true
+  archives: true
+  social:
+    enable: true
+    links: 
+      Github:
+        icons: github
+        links: https://github.com/yourname
+  pages:
+    enable: true
+    links:
+      'Guestbook': guestbook/
+      'About': about/
+  friends: 
+    enable: true
+    links: 
+      186526: 
+        url: https://186526.xyz
+        icon: https://cdn.jsdelivr.net/gh/186526/hexo-theme-lx/source/images/avatar.jpg
+
+pjax_enable: true
+# local search
+#install first:
+#'npm install hexo-generator-searchdb -s'
+local_search:
+  enable: false
+  trigger: auto #'auto' or 'manual' 
+  top_n_per_article: 1
+  unescape: false
+  preload: true
+  placeholder: Search...
+
+## please write html for footer
+footer: 
+
+comment:
+  enable: false
+  appid: ''
+  appkey: ''
+  notify: false
+  verify: false
+  placeholder: 'Say something.' 
+  avatar: identicon
+  guest_info: nick,mail,link
+  pageSize: 10
+  language: zh-cn
+
+sources_cdn: 
+  MDUI_js: "https://cdn.bootcdn.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"
+  MDUI_css: "https://cdn.bootcdn.net/ajax/libs/mdui/0.4.3/css/mdui.min.css"
+  Valine: "https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"
+  jquery: "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
+  jquery_pjax: "https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"
+  main_js: "/js/main.js"

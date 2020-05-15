@@ -1,0 +1,20 @@
+<div class="mdui-drawer mdui-drawer-close"  id="main-drawer" style="padding: 20px">
+    <ul class="mdui-list" mdui-collapse="{accordion: true}">
+        <% if (theme.drawer.personal.enable) {%>
+        <li class="mdui-list-item mdui-ripple">
+            <div class="mdui-list-item-avatar"><img src="<%= theme.avatar %>"/></div>
+            <div class="mdui-list-item-content"><%= theme.drawer.personal.des %></div>
+        </li>
+        <%}%>
+        <li class="mdui-list-item mdui-ripple" href="/" >
+            <a href="/" class="mdui-list-item-icon mdui-icon material-icons">home</a>
+            <a href="/" class="mdui-list-item-content">主页</a>
+        </li>
+        <% if (theme.drawer.darkmode_btn) {%>
+        <li class="mdui-list-item mdui-ripple" href="javascript:void(0);" onclick="darkmod_use()">
+            <a class="mdui-list-item-icon mdui-icon material-icons">brightness_4</a>
+            <a class="mdui-list-item-content">深色模式</a>
+        </li>
+        <%}%>
+    </ul>
+</div>
