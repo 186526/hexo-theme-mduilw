@@ -6,7 +6,8 @@
 <body class="mdui-theme-primary-<%= theme.color.primary%> mdui-theme-accent-<%= theme.color.accent%>" id="main-body">
     <%- partial('_MDUI/appbar') %>
     <%- partial('_MDUI/drawer') %>
-    <div id="pjax-main">
+    <div class="mdui-container" id="pjax-main">
+    <%- partial('_MDUI/card_of_archive') %>
     </div>
     <%- partial('_MDUI/fab') %>
     <%- partial('footer') %>
