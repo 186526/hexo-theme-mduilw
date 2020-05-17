@@ -21,9 +21,7 @@ drawer:
   social:
     enable: true
     links: 
-      Github:
-        icons: github
-        links: https://github.com/yourname
+      Github:  https://github.com/yourname
   pages:
     enable: true
     links:

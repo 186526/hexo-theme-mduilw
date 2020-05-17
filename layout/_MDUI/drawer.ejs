@@ -22,5 +22,50 @@
             <a class="mdui-list-item-content" href="/archives/">存档</a>
         </li>
         <%}%>
+        <% if (theme.drawer.social.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">account_circle</a>
+                    <div class="mdui-list-item-content">其他平台</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    <% for (var i in theme.drawer.social.links){ %>
+                        <a class="mdui-list-item mdui-ripple" href="<%= theme.drawer.social.links[i]%>"><%= i%></a>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
+        <% if (theme.drawer.pages.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">bookmark</a>
+                    <div class="mdui-list-item-content">页面</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense">
+                    <% for (var i in theme.drawer.pages.links){ %>
+                        <a class="mdui-list-item mdui-ripple" href="<%= theme.drawer.pages.links[i]%>"><%= i%></a>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
+        <% if (theme.drawer.pages.enable) {%>
+            <li class="mdui-collapse-item">
+                <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+                    <a class="mdui-list-item-icon mdui-icon material-icons">people</a>
+                    <div class="mdui-list-item-content">朋链</div>
+                    <div class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</div>
+                </div>
+                <ul class="mdui-collapse-item-body mdui-list mdui-list-dense mdui-ripple">
+                    <% for (var i in theme.drawer.friends.links){ %>
+                    <div class="mdui-list-item">
+                    <div class="mdui-list-item-avatar mdui-float-left" style=""><img src="<%= theme.drawer.friends.links[i].icon%>"/></div>
+                    <div class="mdui-list-item-content" href="<%= theme.drawer.friends.links[i].url%>"><%= i%></div>
+                    </div>
+                    <%}%>
+                </ul>
+            </li>
+        <%}%>
     </ul>
 </div>
