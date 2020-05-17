@@ -1,0 +1,21 @@
+<div id="card_of_archive">
+    <% page.posts.each(function (post) { %>
+        <div class="mdui-card mdui-hoverable" style="margin-top: 3%;">
+            <div class="mdui-card-header">
+                <img class="mdui-card-header-avatar" src="<%= theme.avatar %>"/>
+                <div class="mdui-card-header-title"><%= config.author %></div>
+                <div class="mdui-card-header-subtitle"><%= theme.drawer.personal.des %></div>
+            </div>
+            <div class="mdui-card-media">
+                <img src="<%= post.img %>"/>
+                <div class="mdui-card-media-covered">
+                    <div class="mdui-card-primary">
+                        <div class="mdui-card-primary-title"><%= post.title %></div>
+                    </div>
+                </div>
+            </div>
+            <div class="mdui-card-actions">
+                <a class="mdui-btn mdui-ripple mdui-float-right" href="<%- url_for(post.path) %>">立刻阅读<i class="mdui-icon material-icons">navigate_next</i></a>
+            </div>
+    <% }) %>
+</div>

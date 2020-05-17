@@ -3,8 +3,8 @@
 version: 0.0114514
 favicon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
 color:
-  primary: "orange"
-  accent: "deep-orange"
+  primary: "blue"
+  accent: "green"
 icon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
 avatar: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/images/avatar.jpeg
 fab:
@@ -70,3 +70,4 @@ sources_cdn:
   jquery: "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
   jquery_pjax: "https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"
   main_js: "/js/main.js"
+  main_css: "/css/main.css"
