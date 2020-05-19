@@ -1,4 +1,4 @@
-# Hexo-Theme-MduiLW
+# Hexo-Theme-MDUILW
 
 A Light weight MD theme for [Hexo]
 
