@@ -51,10 +51,11 @@ comment:
   language: zh-cn
 
 sources_cdn: 
-  MDUI_js: "https://cdn.bootcdn.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"
-  MDUI_css: "https://cdn.bootcdn.net/ajax/libs/mdui/0.4.3/css/mdui.min.css"
-  Valine: "https://cdn.bootcdn.net/ajax/libs/valine/1.4.14/Valine.min.js"
-  jquery: "https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"
-  jquery_pjax: "https://cdn.bootcdn.net/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.js"
-  main_js: "/js/main.js"
-  main_css: "/css/main.css"
+  MDUI_js: "https://cdn.my-file.cn/mduilw/MDUILW/mdui-v0.4.3/js/mdui.min.js"
+  MDUI_css: "https://cdn.my-file.cn/mduilw/MDUILW/mdui-v0.4.3/css/mdui.min.css"
+  Valine: "https://cdn.my-file.cn/mduilw/MDUILW/Valine.min.js"
+  jquery: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.min.js"
+  jquery_pjax: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.pjax.js"
+  main_js: "https://cdn.my-file.cn/mduilw/MDUILW/mduilw/source/js/main.js"
+  main_css: "https://cdn.my-file.cn/mduilw/MDUILW/mduilw/source/css/main.css"
+  ## 感谢菠萝大佬提供的国内cdn（使用阿里云cdn
