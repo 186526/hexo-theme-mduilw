@@ -26,7 +26,9 @@ git pull
 ```
 
 ## Contributing
-
+[Hexo]
+[MDUI]
+[菠萝大佬]
 [Hexo]: https://hexo.io/
 [MDUI]: https://mdui.org/
 [菠萝大佬]: https://wngamebox.cn
