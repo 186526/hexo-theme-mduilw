@@ -4,7 +4,7 @@ A Light weight MD theme for [Hexo]
 
 - [Preview](http://mduilw.186526.xyz)
 
-If you like this theme , pls give me a star!
+If you like this theme , plz give me a star!
 
 ## Installtion
 
