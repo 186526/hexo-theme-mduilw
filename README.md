@@ -11,7 +11,7 @@ If you like this theme , pls give me a star!
 ### Install
 
 ``` bash
-git clone https://github.com/186526/hexo-theme-mduilw.git themes/mduilwlw
+git clone https://github.com/186526/hexo-theme-mduilw.git themes/mduilw
 ```
 
 ### Enable
