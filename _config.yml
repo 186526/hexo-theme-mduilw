@@ -1,6 +1,6 @@
 ## This is Hexo-Theme-MDUI
 ## Author:186526(https://github.com/186526)
-version: 0.0114514
+version: 0.2
 favicon: https://cdn.jsdelivr.net/npm/theme-lx@0.3.9/source/favicon.ico
 color:
   primary: "blue"
@@ -35,16 +35,13 @@ drawer:
         icon: https://cdn.jsdelivr.net/gh/186526/hexo-theme-lx/source/images/avatar.jpg
 
 pjax_enable: true
-# local search
-#install first:
-#'npm install hexo-generator-searchdb -s'W
-## please write html for footer
+
 footer: 
 
 comment:
-  enable: true
-  appid: 'u6RSYBGKK1qBIkHBdIEmMWSW-gzGzoHsz'
-  appkey: 'pFcWuNMWM08I81COGKAl6SKJ'
+  enable: false
+  appid: ''
+  appkey: ''
   notify: false
   verify: false
   placeholder: 'Say something.' 
