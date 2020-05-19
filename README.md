@@ -25,6 +25,26 @@ cd themes/mduilw
 git pull
 ```
 
+## Usage
+
+### comment
+
+We use Valine as Comment System
+
+add this when you want to use comment
+
+``` yml
+comment: true
+```
+
+### img
+
+Plz add this when write a post
+
+``` yml
+img: url_to_omg
+```
+
 ## Contributing
 
 [Hexo]
