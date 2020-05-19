@@ -11,7 +11,7 @@ If you like this theme , pls give me a star!
 ### Install
 
 ``` bash
-$ git clone https://github.com/186526/hexo-theme-mduilw.git themes/mduilwlw
+git clone https://github.com/186526/hexo-theme-mduilw.git themes/mduilwlw
 ```
 
 ### Enable
@@ -21,11 +21,12 @@ Modify `theme` setting in `_config.yml` to `mduilw`.
 ### Update
 
 ``` bash
-cd themes/landscape
+cd themes/mduilw
 git pull
 ```
 
 ## Contributing
+
 [Hexo]: https://hexo.io/
 [MDUI]: https://mdui.org/
-[菠萝大佬]: https://wngamebox.cn/
+[菠萝大佬]: https://wngamebox.cn
