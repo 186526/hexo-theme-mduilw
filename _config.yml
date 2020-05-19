@@ -37,7 +37,7 @@ drawer:
 pjax_enable: true
 
 footer: 
-
+## Use Valine as comment system
 comment:
   enable: false
   appid: ''

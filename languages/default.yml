@@ -1,0 +1,9 @@
+Card:
+  read: Read
+Menu:
+  home: Home
+  darkmod_btn: Darkmod
+  archive: Archive
+  others: Others
+  pages: Pages
+  friends: Friends
