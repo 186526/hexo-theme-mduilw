@@ -6,6 +6,7 @@
   guest = guest.split(',').filter(function(item) {
     return GUEST.indexOf(item) > -1;
   });
+  load_valine = function () {
   new Valine({
     el: '#comments',
     verify: <%- theme.comment.verify%>,
@@ -16,7 +17,8 @@
     avatar: '<%- theme.comment.avatar%>',
     meta: guest,
     pageSize: '<%- theme.comment.pageSize%>' || 10,
-    lang: '<%- theme.comment.language%>' || 'zh-cn'
-  });
+    lang: '<%- theme.comment.language%>' || 'zh-cn',
+    path: window.location.pathname // **请确保必须写该属性
+  });};
 </script>
 <%}%>
