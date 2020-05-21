@@ -12,12 +12,7 @@
         <%- partial('_MDUI/fab') %>
     </div>
 </body>
-<% if (theme.pjax_enable) {%>
-    <script>$(document).pjax('a', '#pjax-main' , {fragment:'#pjax-main', timeout:8000});
-<%if (theme.comment.enable) {%>
-    $(document).ready(load_valine);$(document).on("pjax:complete", function(){load_valine();add_pic();});</script>
-<%}%>
-<%}%>
+<% if (theme.pjax_enable) {%><script>$(document).pjax('a', '#pjax-main' , {fragment:'#pjax-main', timeout:8000});<%if (theme.comment.enable) {%>$(document).ready(function (){load_valine()});$(document).on("pjax:complete", function(){load_valine();add_pic();});</script><%}%><%}%>
 <script src="<%= theme.sources_cdn.main_js %>"></script>
 <script>function girlfriends() {console.log("你在想peach");document.write("<div>你在想peach</div>");return false};</script>
 </html>
