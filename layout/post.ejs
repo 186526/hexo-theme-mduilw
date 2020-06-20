@@ -7,10 +7,10 @@
         </div>
     </div> 
 </div>
-<div class="post-content">
+<div class="post-content mdui-typo">
 <%- page.content %>
 <% if(theme.comment.enable) {%>
-<div id="comments">
+<div id="comments" style="margin-top: 20%;">
 <%- partial('_third_party/Valine') %>
 </div>
 <%}%>

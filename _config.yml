@@ -57,5 +57,5 @@ sources_cdn:
   jquery: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.min.js"
   jquery_pjax: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.pjax.js"
   main_js: "https://cdn.my-file.cn/mduilw/MDUILW/mduilw/source/js/main.js"
-  main_css: "https://cdn.my-file.cn/mduilw/MDUILW/mduilw/source/css/main.css"
+  main_css: "/css/main.css"
   ## 感谢菠萝大佬提供的国内cdn（使用阿里云cdn
