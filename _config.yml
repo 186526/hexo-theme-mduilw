@@ -51,11 +51,12 @@ comment:
   language: zh-cn
 
 sources_cdn: 
-  MDUI_js: "https://cdn.my-file.cn/mduilw/MDUILW/mdui-v0.4.3/js/mdui.min.js"
-  MDUI_css: "https://cdn.my-file.cn/mduilw/MDUILW/mdui-v0.4.3/css/mdui.min.css"
-  Valine: "https://cdn.my-file.cn/mduilw/MDUILW/Valine.min.js"
-  jquery: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.min.js"
-  jquery_pjax: "https://cdn.my-file.cn/mduilw/MDUILW/jquery.pjax.js"
-  main_js: "https://cdn.my-file.cn/mduilw/MDUILW/mduilw/source/js/main.js"
-  main_css: "/css/main.css"
-  ## 感谢菠萝大佬提供的国内cdn（使用阿里云cdn
+  MDUI_js: "https://cdn.jsdelivr.net/npm/mdui/dist/js/mdui.min.js"
+  MDUI_css: "https://cdn.jsdelivr.net/npm/mdui/dist/css/mdui.min.css"
+  Valine: "https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js"
+  jquery: "https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"
+  jquery_pjax: "https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"
+  main_js: "https://cdn.jsdelivr.net/gh/186526/hexo-theme-mduilw@master/source/js/main.min.js"
+  main_css: "https://cdn.jsdelivr.net/gh/186526/hexo-theme-mduilw@master/source/css/main.min.css"
+  ## ~~感谢菠萝大佬提供的国内cdn（使用阿里云cdn~~
+  ## jsd yyds
